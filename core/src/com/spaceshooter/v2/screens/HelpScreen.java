@@ -17,7 +17,6 @@ import static com.spaceshooter.v2.SpaceShooter.camera;
 public class HelpScreen extends ScreenAdapter {
     final SpaceShooter game;
     Screen prvScreen;
-    Screen prevScreen;
     private Stage stage;
     private Skin skin;
     public HelpScreen(Screen prvScreen, final SpaceShooter game) {

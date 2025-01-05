@@ -1,0 +1,23 @@
+spawnInterval: 1.5
+waveDuration: 30
+
+type: BASIC, x: 100, y: 400, health: 20, speed: 50
+type: BASIC, x: 200, y: 400, health: 20, speed: 50
+type: BASIC, x: 300, y: 400, health: 20, speed: 50
+type: BASIC, x: 400, y: 400, health: 20, speed: 50
+type: BASIC, x: 500, y: 400, health: 20, speed: 50
+type: BASIC, x: 600, y: 400, health: 20, speed: 50
+type: BASIC, x: 700, y: 400, health: 20, speed: 50
+type: BASIC, x: 100, y: 300, health: 20, speed: 50
+type: BASIC, x: 200, y: 300, health: 20, speed: 50
+type: BASIC, x: 300, y: 300, health: 20, speed: 50
+type: BASIC, x: 400, y: 300, health: 20, speed: 50
+type: BASIC, x: 500, y: 300, health: 20, speed: 50
+type: BASIC, x: 600, y: 300, health: 20, speed: 50
+type: BASIC, x: 700, y: 300, health: 20, speed: 50
+type: BASIC, x: 100, y: 200, health: 20, speed: 50
+type: BASIC, x: 200, y: 200, health: 20, speed: 50
+type: BASIC, x: 300, y: 200, health: 20, speed: 50
+type: BASIC, x: 400, y: 200, health: 20, speed: 50
+type: BASIC, x: 500, y: 200, health: 20, speed: 50
+type: BASIC, x: 600, y: 200, health: 20, speed: 50

@@ -220,7 +220,6 @@ public class SpaceShooter extends Game {
         }
 
         collisionCheck.checkCollisions();
-
     }
 
     @Override

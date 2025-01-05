@@ -2,7 +2,7 @@ package com.spaceshooter.v2;
 
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
-import com.spaceshooter.v2.SpaceShooter;
+import com.spaceshooter.v2.v3.SpaceShooter;
 
 // Please note that on macOS your application needs to be started with the -XstartOnFirstThread JVM argument
 public class DesktopLauncher {
@@ -14,7 +14,7 @@ public class DesktopLauncher {
 		config.setMaximized(false);
 		config.useVsync(true);
 		config.setResizable(false);
-		config.setTitle("SpaceShootersV2");
-		new Lwjgl3Application(new SpaceShooter(), config);
+		config.setTitle("SpaceShooters-v3");
+		new Lwjgl3Application(SpaceShooter.INSTANCE, config);
 	}
 }

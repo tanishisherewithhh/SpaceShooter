@@ -36,7 +36,7 @@ public class SettingsScreen implements Screen {
 
     public SettingsScreen(final SpaceShooter game, Screen prevScreen) {
         this.game = game;
-        skin = new Skin(Gdx.files.internal("uiskin.json"));
+        this.skin = new Skin(Gdx.files.internal("uiskin.json"));
         this.prevScreen = prevScreen;
     }
 
@@ -63,7 +63,7 @@ public class SettingsScreen implements Screen {
         });
 
         soundVolumeSlider = new Slider(0f, 1f, 0.1f, false, skin);
-        soundVolumeSlider.setValue(game.getSoundVolume());
+        soundVolumeSlider.setValue(SpaceShooter.getSoundVolume());
         soundVolumeSlider.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
